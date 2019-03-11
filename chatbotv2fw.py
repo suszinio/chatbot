@@ -7,7 +7,7 @@ import numpy as np
 import tflearn
 import tensorflow as tf
 import random
-
+ 
 # restore all of our data structures
 import pickle
 data = pickle.load( open( "training_data", "rb" ) )
